@@ -206,7 +206,7 @@ export default {
             ]
         ],
         updates: {
-            url: "https://u.expo.dev/4558dd3d-cd5a-47cd-bad9-e591a241cc06",
+            url: "https://u.expo.dev/7830139a-d58d-4951-81ec-56802608313e",
             requestHeaders: {
                 "expo-channel-name": "production"
             }
@@ -219,7 +219,7 @@ export default {
                 root: "./sources/app"
             },
             eas: {
-                projectId: "4558dd3d-cd5a-47cd-bad9-e591a241cc06"
+                projectId: "7830139a-d58d-4951-81ec-56802608313e"
             },
             app: {
                 postHogKey: process.env.EXPO_PUBLIC_POSTHOG_API_KEY,
@@ -232,6 +232,6 @@ export default {
                 buildCommitTimestamp: buildMetadata.commitTimestamp,
             }
         },
-        owner: "bulkacorp"
+        owner: "chenjingxiongs-team"
     }
 };
